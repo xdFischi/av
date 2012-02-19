@@ -10,4 +10,4 @@ https://bitbucket.org/apollo13/django-registration/get/b79f9f2cf3c9.zip
 http://www.djangoproject.com/download/1.4-beta-1/tarball/
 -e git://github.com/apollo13/django-rcal.git#egg=django-rcal
 -e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
-rewrelic
+newrelic
