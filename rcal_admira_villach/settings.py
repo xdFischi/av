@@ -1,10 +1,14 @@
 # Django settings for rcal_admira_villach project.
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
+import os
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Florian Apolloner', 'florian@apolloner.eu'),
 )
 
 MANAGERS = ADMINS
@@ -109,6 +113,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_ROOT, 'templates')
 )
 
 INSTALLED_APPS = (
