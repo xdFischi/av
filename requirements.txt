@@ -1,7 +1,6 @@
 # Use Gunicorn from the djangonew branch, till they support Django 1.4
 https://github.com/benoitc/gunicorn/zipball/djangonew
 gevent
-psycopg2
 pytz
 vobject
 psycopg2
