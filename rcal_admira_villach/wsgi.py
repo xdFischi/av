@@ -2,7 +2,6 @@
 WSGI config for rcal_admira_villach project.
 """
 import os
-import newrelic.agent
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rcal_admira_villach.settings")
 
@@ -13,5 +12,8 @@ from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 
 from django.contrib.staticfiles.handlers import StaticFilesHandler
-application = newrelic.agent.wsgi_application()(StaticFilesHandler(application))
-#application = StaticFilesHandler(application)
+application = StaticFilesHandler(application)
+
+#if 'NEW_RELIC_ID' in os.environ: # Doesn't work with gevent currently.
+#    import newrelic.agent
+#    application = newrelic.agent.wsgi_application()(application)
