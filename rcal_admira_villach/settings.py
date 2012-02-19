@@ -1,6 +1,6 @@
 # Django settings for rcal_admira_villach project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -27,11 +27,11 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Europe/Vienna'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'de-at'
 
 SITE_ID = 1
 
@@ -123,6 +123,20 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
+INSTALLED_APPS = (
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django.contrib.admin',
+    'rcal',
+    'rcal_registration',
+    'registration',
+    'south',
+)
+
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
@@ -152,3 +166,15 @@ LOGGING = {
         },
     }
 }
+
+EMAIL_HOST = 'smtp.apolloner.eu'
+EMAIL_HOST_PASSWORD = 'Z2Yvf9eR'
+EMAIL_HOST_USER = 'smtp@apolloner.eu'
+EMAIL_USE_TLS = True
+EMAIL_SUBJECT_PREFIX = '[admira-villach]'
+
+TEMPLATE_CONTEXT_PROCESSORS = list(TEMPLATE_CONTEXT_PROCESSORS) + ['django.core.context_processors.request']
+
+LOGIN_REDIRECT_URL = '/'
+ACCOUNT_ACTIVATION_DAYS = 7
+AUTH_PROFILE_MODULE = 'rcal_registration.UserProfile'

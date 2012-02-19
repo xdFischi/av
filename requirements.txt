@@ -2,3 +2,12 @@
 https://github.com/benoitc/gunicorn/zipball/djangonew
 gevent
 psycopg2
+pytz
+vobject
+psycopg2
+python-dateutil==1.5
+https://bitbucket.org/andrewgodwin/south/get/fcf464bd036f.zip
+https://bitbucket.org/apollo13/django-registration/get/b79f9f2cf3c9.zip
+http://www.djangoproject.com/download/1.4-beta-1/tarball/
+-e git://github.com/apollo13/django-rcal.git#egg=django-rcal
+-e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
