@@ -176,7 +176,9 @@ EMAIL_HOST = 'smtp.apolloner.eu'
 EMAIL_HOST_PASSWORD = 'Z2Yvf9eR'
 EMAIL_HOST_USER = 'smtp@apolloner.eu'
 EMAIL_USE_TLS = True
-EMAIL_SUBJECT_PREFIX = '[admira-villach]'
+EMAIL_SUBJECT_PREFIX = '[admira-villach] '
+DEFAULT_FROM_EMAIL = 'no-reply@apolloner.eu'
+SERVER_EMAIL = 'no-reply@apolloner.eu'
 
 TEMPLATE_CONTEXT_PROCESSORS = list(TEMPLATE_CONTEXT_PROCESSORS) + ['django.core.context_processors.request']
 
