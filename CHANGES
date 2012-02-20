@@ -3,3 +3,4 @@
  * always accept params in rules.
  * errors on /new/
  * fix max_entries_in_future
+ * anonymize events after checking rules on views.event
