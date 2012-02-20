@@ -1,3 +1,4 @@
  * order resources by name.
  * fix unbound local error.
  * always accept params in rules.
+ * errors on /new/
