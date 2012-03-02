@@ -92,7 +92,7 @@ SECRET_KEY = 'u=vx=14(9^g$y0wgp&amp;h%floaf^w2^v18g@!jxrkh!n^_n=inzi'
 #    'django.template.loaders.filesystem.Loader',
 #    'django.template.loaders.app_directories.Loader',
 ##     'django.template.loaders.eggs.Loader',
-)
+#)
 TEMPLATE_LOADERS = (
     ('django.template.loaders.cached.Loader', (
         'django.template.loaders.filesystem.Loader',
