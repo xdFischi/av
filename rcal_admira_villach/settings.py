@@ -146,6 +146,7 @@ INSTALLED_APPS = (
     'rcal_registration',
     'registration',
     'south',
+    'notification',
 )
 
 
