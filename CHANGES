@@ -5,3 +5,4 @@
  * fix max_entries_in_future
  * anonymize events after checking rules on views.event
  * new rules, admin interface for events, mass_mail etc…
+ * fix rules
