@@ -17,4 +17,5 @@
  * show prices in cal overview
  * allow admin to add events for other users.
  * translations.
- * add price and group to admin 
+ * add price and group to admin
+ * fix server errors (senioren, users without groups)
