@@ -20,3 +20,4 @@
  * add price and group to admin
  * fix server errors (senioren, users without groups)
  * catch errprs in get_price
+ * display_name
