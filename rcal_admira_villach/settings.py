@@ -197,3 +197,4 @@ REGISTRATION_DEFAULT_GROUP = 6
 RCAL_TIMES = (7, 21)
 
 SENTRY_DSN = 'https://e2e345bf807746389da2691cecaef7cd:4309277c6a904769a2d8f5f49e1ca03d@app.getsentry.com/489'
+REGISTRATION_NOTIFICATION_MAIL = 'platzreservierung-admira@gmx.at'
