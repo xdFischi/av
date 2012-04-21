@@ -24,3 +24,4 @@
  * always display selected user, fix error in admin
  * fix last commits
  * fix rule system.
+ * don't display title and description.
