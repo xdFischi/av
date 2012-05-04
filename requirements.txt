@@ -6,9 +6,9 @@ vobject
 psycopg2
 gevent-psycopg2==0.0.3
 python-dateutil==1.5
+django-registration
 https://bitbucket.org/andrewgodwin/south/get/fcf464bd036f.zip
-https://bitbucket.org/apollo13/django-registration/get/b79f9f2cf3c9.zip
-http://www.djangoproject.com/download/1.4-rc-2/tarball/
+http://www.djangoproject.com/download/1.4/tarball/
 -e git://github.com/apollo13/django-rcal.git#egg=django-rcal
 -e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
 django-notification
