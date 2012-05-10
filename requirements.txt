@@ -6,7 +6,7 @@ vobject
 psycopg2
 gevent-psycopg2==0.0.3
 python-dateutil==1.5
-django-registration
+django-registration==0.8
 https://bitbucket.org/andrewgodwin/south/get/fcf464bd036f.zip
 Django==1.4
 -e git://github.com/apollo13/django-rcal.git#egg=django-rcal
