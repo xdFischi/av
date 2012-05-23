@@ -33,3 +33,4 @@
  * event copying etc..
  * nameerror
  * fix error if start/end is None in Event.clean.
+ * fix event administation.
