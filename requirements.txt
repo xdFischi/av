@@ -13,3 +13,4 @@ Django==1.4
 -e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
 django-notification
 raven>=1.4.6
+dj-database-url==0.2.0
