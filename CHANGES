@@ -34,3 +34,4 @@
  * nameerror
  * fix error if start/end is None in Event.clean.
  * fix event administation.
+ * add missing template.
