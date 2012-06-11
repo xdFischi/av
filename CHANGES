@@ -37,3 +37,4 @@
  * add missing template.
  * fix double creation of events.
  * add a "user must be member of group X" check.
+ * fix deletion permissions of events.
