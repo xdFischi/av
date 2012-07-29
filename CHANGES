@@ -40,3 +40,5 @@
  * fix deletion permissions of events.
  * fix error in pricetable admin validation.
  * hides users and log users.
+ * start endzeit von resourcen.
+ * fix https://app.getsentry.com/admira-villach/group/279573/
