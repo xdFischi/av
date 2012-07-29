@@ -39,3 +39,4 @@
  * add a "user must be member of group X" check.
  * fix deletion permissions of events.
  * fix error in pricetable admin validation.
+ * hides users and log users.
