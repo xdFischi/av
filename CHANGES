@@ -44,4 +44,4 @@
  * fix https://app.getsentry.com/admira-villach/group/279573/
  * fixed reigstration of custom user admin.
  * Hide "unselectable" groups from the group combobox.
-     
+ * User hiding.
