@@ -8,7 +8,8 @@ gevent-psycopg2==0.0.3
 python-dateutil==1.5
 django-registration==0.8
 https://bitbucket.org/andrewgodwin/south/get/fcf464bd036f.zip
-Django==1.4
+# I need Django 1.5 :)
+https://github.com/django/django/zipball/17d57275f991f001fbdbf4a85159244096f43499
 -e git://github.com/apollo13/django-rcal.git#egg=django-rcal
 -e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
 django-notification
