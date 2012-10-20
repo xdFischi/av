@@ -45,3 +45,4 @@
  * fixed reigstration of custom user admin.
  * Hide "unselectable" groups from the group combobox.
  * User hiding.
+ * Admin action to change users.
