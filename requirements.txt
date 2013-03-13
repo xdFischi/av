@@ -1,17 +1,16 @@
-# Use Gunicorn from the djangonew branch, till they support Django 1.4
-https://github.com/benoitc/gunicorn/zipball/djangonew
-gevent
-pytz
-vobject
-psycopg2
+gunicorn==0.17.2
+gevent==0.13.8
+pytz==2012j
+vobject==0.8.1c
+psycopg2==2.4.6
 gevent-psycopg2==0.0.3
 python-dateutil==1.5
 django-registration==0.8
-https://bitbucket.org/andrewgodwin/south/get/fcf464bd036f.zip
-# I need Django 1.5 :)
-https://github.com/django/django/zipball/17d57275f991f001fbdbf4a85159244096f43499
+South==0.7.6
+# I need Django 1.6 :)
+https://github.com/django/django/zipball/5d8342f321c1e1017e63555270999c9378f10185
 -e git://github.com/apollo13/django-rcal.git#egg=django-rcal
 -e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
 django-notification
-raven>=1.4.6
-dj-database-url==0.2.0
+raven==3.1.17
+dj-database-url==0.2.1
