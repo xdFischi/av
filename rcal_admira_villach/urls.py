@@ -4,8 +4,7 @@ from django.contrib import admin
 admin.autodiscover()
 import notification.models
 
-notification_models = ('NoticeType', 'NoticeSetting', 'Notice',
-    'NoticeQueueBatch', 'ObservedItem')
+notification_models = ('NoticeType', 'NoticeSetting', 'NoticeQueueBatch')
 notification_models = map(lambda x: getattr(notification.models, x),
     notification_models)
 admin.site.unregister(notification_models)
