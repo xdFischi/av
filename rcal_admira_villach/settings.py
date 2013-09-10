@@ -191,4 +191,8 @@ RCAL_TIMES = (7, 21)
 SENTRY_DSN = 'https://0ad40da5e5fb4b408a16de44de8fdf46:7d711966d5c1459e802755170d1b64af@app.getsentry.com/893'
 REGISTRATION_NOTIFICATION_MAIL = 'platzreservierung-admira@gmx.at'
 
-ALLOWED_HOSTS = ('localhost', 'admira-villach.herokuapp.com')
+ALLOWED_HOSTS = (
+    'localhost',
+    'admira-villach.herokuapp.com',
+    '.admira-villach.at',
+)
