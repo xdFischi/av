@@ -172,9 +172,9 @@ LOGGING = {
     }
 }
 
-EMAIL_HOST = 'smtp.apolloner.eu'
-EMAIL_HOST_PASSWORD = 'Z2Yvf9eR'
-EMAIL_HOST_USER = 'smtp@apolloner.eu'
+EMAIL_HOST = 'mail.messagingengine.com'
+EMAIL_HOST_PASSWORD = 'Aujiemi2gu4AhquueQu0'
+EMAIL_HOST_USER = 'home@apolloner.eu'
 EMAIL_USE_TLS = True
 EMAIL_SUBJECT_PREFIX = '[admira-villach] '
 DEFAULT_FROM_EMAIL = 'no-reply@apolloner.eu'
