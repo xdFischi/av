@@ -14,5 +14,4 @@ https://github.com/django/django/zipball/f8c7c8f27b061b65d2dec98510bb9e76e154779
 django-notification==1.0
 raven==3.1.17
 dj-database-url==0.2.1
-newrelic
 six

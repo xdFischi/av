@@ -13,7 +13,3 @@ application = get_wsgi_application()
 
 from django.contrib.staticfiles.handlers import StaticFilesHandler
 application = StaticFilesHandler(application)
-
-#if 'NEW_RELIC_ID' in os.environ: # Doesn't work with gevent currently.
-#    import newrelic.agent
-#    application = newrelic.agent.wsgi_application()(application)
