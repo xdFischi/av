@@ -93,6 +93,7 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'opbeat.contrib.django.middleware.OpbeatAPMMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -139,7 +140,7 @@ INSTALLED_APPS = (
     'registration',
     'south',
     'notification',
-    'raven.contrib.django',
+    'opbeat.contrib.django',
 )
 
 
@@ -189,7 +190,11 @@ AUTH_PROFILE_MODULE = 'rcal_registration.UserProfile'
 REGISTRATION_DEFAULT_GROUP = 6
 RCAL_TIMES = (7, 21)
 
-SENTRY_DSN = 'https://0ad40da5e5fb4b408a16de44de8fdf46:7d711966d5c1459e802755170d1b64af@app.getsentry.com/893'
+OPBEAT = {
+    'ORGANIZATION_ID': '84604f7d376c49acb4af9d98c3ff49d4',
+    'APP_ID': 'aac1a2b673',
+    'SECRET_TOKEN': '0b477a5d8fadaec5d67fa645b734ecd51ba47c7d',
+}
 REGISTRATION_NOTIFICATION_MAIL = 'platzreservierung-admira@gmx.at'
 
 ALLOWED_HOSTS = (
