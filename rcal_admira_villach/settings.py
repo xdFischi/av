@@ -174,7 +174,7 @@ LOGGING = {
 }
 
 EMAIL_HOST = 'mail.messagingengine.com'
-EMAIL_HOST_PASSWORD = 'Aujiemi2gu4AhquueQu0'
+EMAIL_HOST_PASSWORD = '9yag3ndkb2bnv4eg'
 EMAIL_HOST_USER = 'home@apolloner.eu'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
