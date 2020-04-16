@@ -9,8 +9,8 @@ django-registration==0.8
 South==0.7.6
 # I need Django 1.6 :)
 https://github.com/django/django/zipball/f8c7c8f27b061b65d2dec98510bb9e76e1547791
--e git://github.com/apollo13/django-rcal.git#egg=django-rcal
--e git://github.com/apollo13/django-rcal-registration.git#egg=django-rcal-registration
+-e git://github.com/eclips0r/django-rcal.git#egg=django-rcal
+-e git://github.com/eclips0r/django-rcal-registration.git#egg=django-rcal-registration
 django-notification==1.0
 raven==3.1.17
 dj-database-url==0.2.1
